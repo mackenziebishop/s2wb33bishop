@@ -4,4 +4,9 @@ block content
   h1= title
   p Welcome to Assignment #10
 
-<a class="button" href="http://localhost:5000/">Push Me</a> 
+div (id="button" onClick="method()") Content
+
+- var btnType = 'Info'
+- var btnSize = 'lg'
+
+button (type='button' class='btn btn-' + btnType + ' btn-' + btnSize) Push Me
